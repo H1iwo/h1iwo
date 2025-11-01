@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحتي التعريفية</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>أهلاً بيك بصفحتي</h1>
+    <p>تعرف أكثر عني وعن خدماتي بطريقة جذابة وسهلة.</p>
+    <nav>
+      <a href="#about">من أنا</a>
+      <a href="#services">خدماتي</a>
+      <a href="#contact">تواصل معي</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>من أنا</h2>
+    <p>اسمي مصطفى، مطور مواقع وبرمجيات، أحب تصميم الصفحات التفاعلية والجذابة، وأسعى دائماً لتقديم أفضل تجربة للمستخدمين.</p>
+  </section>
+
+  <section id="services">
+    <h2>خدماتي</h2>
+    <div class="features">
+      <div class="feature">
+        <i class="fas fa-code"></i>
+        <h3>تطوير المواقع</h3>
+        <p>إنشاء مواقع حديثة وسريعة باستخدام أحدث التقنيات.</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-paint-brush"></i>
+        <h3>تصميم واجهات</h3>
+        <p>تصاميم جذابة وسهلة الاستخدام تناسب جميع الأجهزة.</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>تطبيقات موبايل</h3>
+        <p>برمجة تطبيقات متوافقة مع الأندرويد وiOS بطريقة احترافية.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>تواصل معي</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="اسمك" required>
+      <input type="email" name="email" placeholder="ايميلك" required>
+      <textarea name="message" placeholder="رسالتك" required></textarea>
+      <button type="submit">أرسل الرسالة</button>
+    </form>
+    <p id="responseMsg"></p>
+  </section>
+
+  <footer>
+    <p>حقوق الطبع © 2025 مصطفى</p>
+    <p>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
